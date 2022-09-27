@@ -1,0 +1,29 @@
+echo "# Programa-em-Python-Operacoes-Algebricas-" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com /DVALENASCIMENTO/Programa-em-Python-Operacoes-Algebricas-.git
+ git push -u origin main
+ 
+# Descrição: programa em python para que um usuário informe três números inteiros. 
+#Ao final o programa deve imprimir na tela os números informados e o resultado das seguintes operações algébricas: soma, subtração e multiplicação.
+# Autor: Diego Vale do Nascimento
+
+ni1 = int(input("Informe o primeiro número inteiro: "))
+ni2 = int(input("Informe o segundo número inteiro: "))
+ni3 = int(input("Informe o terceiro número inteiro: "))
+
+print("NI1 = ", ni1)
+print("NI2 = ", ni2)
+print("NI3 = ", ni3)
+
+Adicao = ni1+ni2+ni3
+Subtracao = ni1-ni2-ni3
+Multiplicacao = ni1*ni2*ni3
+
+print("\n")
+
+print("Adição - (ni1 + ni2 + ni3) = ", Adicao)
+print("Subtração - (ni1 - ni2 - ni3) = ", Subtracao)
+print("Multiplicação - (ni1 x ni2 x ni3) = ", Multiplicacao)
